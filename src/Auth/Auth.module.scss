@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  grid-template-areas: logo_section form_section;
+}
+
+.login_section {
+  grid-area: login_section;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form_section {
+  grid-area: form_section;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
